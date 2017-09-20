@@ -1,0 +1,22 @@
+{
+  "nodes": {
+    "chefserver.example.com": {
+      ":ip": "192.168.32.5",
+      "ports": [],
+      ":memory": 2048,
+      ":bootstrap": "bootstrap.sh"
+    },
+    "chefws.example.com": {
+      ":ip": "192.168.32.10",
+      "ports": [],
+      ":memory": 1024,
+      ":bootstrap": "bootstrap.sh"
+    },
+    "chefclient.example.com": {
+      ":ip": "192.168.32.20",
+      "ports": [],
+      ":memory": 1024,
+      ":bootstrap": "bootstrap.sh"
+    }
+  }
+}
